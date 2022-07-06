@@ -156,11 +156,11 @@ p {
     color: #3c3c3c;
 }
 
-#family-card {
+#food-card {
     background-color: #ffbdda;
 }
 
-#education-card {
+#shelter-card {
     background-color: #d9b8ff;
 }
 
@@ -175,17 +175,20 @@ p {
     background-size: cover;
     padding: 40px;
 }
+
 /*About us first row(top) styles*/
 .about-first-row {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
+
 /*2 colomn of first row*/
 .about-left,
 .about-right {
     width: 40%;
 }
+
 .about-right {
     text-align: right;
 }
@@ -193,13 +196,16 @@ p {
 .about-right>p {
     margin-left: 60px;
 }
+
 /*About Us Second row Styles*/
 .about-second-row {
     padding-left: 25%;
 }
-.about-second-row img{
+
+.about-second-row img {
     border-radius: 10px;
 }
+
 /*Statics */
 .statistics {
     width: 60%;
@@ -214,19 +220,22 @@ p {
     border-radius: 0px 0px 10px 10px;
     box-shadow: 3px 3px 20px #7c7c7c;
 }
-.statistics-single{
-    margin:0px 20px;
+
+.statistics-single {
+    margin: 0px 20px;
 }
-.statistics-single h3{
+
+.statistics-single h3 {
     font-size: 40px;
     font-weight: 700;
-    color:#423C96;
+    color: #423C96;
     line-height: 0;
 }
-.statistics-single p{
+
+.statistics-single p {
     font-size: 18px;
     font-weight: 700;
-    color:#EF5050;
+    color: #EF5050;
 }
 
 /*Newsletter Subscription Area Styles*/
@@ -239,10 +248,11 @@ p {
     background-position: center center;
     width: 800px;
     display: block;
-    margin:0 auto;
-    padding:80px 0px;
+    margin: 0 auto;
+    padding: 80px 0px;
     border-radius: 10px;
 }
+
 /*Newsletter input email styles*/
 .newsletter-box input[type=email] {
     width: 40%;
@@ -250,15 +260,17 @@ p {
     font-size: 16px;
     border: none;
     background-color: #D9D9D9;
-    color:#fff;
+    color: #fff;
     border-radius: 5px 0px 0px 5px;
 }
+
 /*Remove focus outline*/
 .newsletter-box input[type=email]:focus {
     outline: none;
 }
+
 /*Newslatter submit button styles*/
-.newsletter-box input[type=submit]{
+.newsletter-box input[type=submit] {
     position: absolute;
     background-image: linear-gradient(to right, #625bd4, #3d388d);
     color: #fff;
@@ -269,18 +281,22 @@ p {
     border-radius: 0px 5px 5px 0px;
     cursor: pointer;
 }
-.footer-area{
+
+/*Footer Section Style*/
+.footer-area {
     text-align: center;
-    padding:40px 10px;
-    color:#fff;
-    background-color:#121212;
+    padding: 40px 10px;
+    color: #fff;
+    background-color: #121212;
     background-image: url(images/footer-bg-trans.png);
-    background-repeat: no-repeat;
+    background-size: cover;
 }
-.footer-area img{
+
+.footer-area img {
     width: 50px;
     height: auto;
 }
-.footer-area h2{
-    color:#EF5261;
+
+.footer-area h2 {
+    color: #EF5261;
 }
