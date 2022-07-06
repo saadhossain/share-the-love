@@ -4,6 +4,7 @@ body {
     font-family: 'Ubuntu', sans-serif;
     transition: 0.7s all ease-in-out;
 }
+
 /*Common Styles, all h1, h2 and p tag will get this styles.*/
 h1 {
     font-size: 65px;
@@ -17,6 +18,7 @@ h2 {
 p {
     font-size: 18px;
 }
+
 /*Header Section style*/
 .header-banner {
     height: 670px;
@@ -28,12 +30,14 @@ p {
     background-size: cover;
     background-color: rgba(0, 0, 0, 0.603);
 }
+
 /*Only Header description will get this style, because header description area is widther than other description area*/
 .header-description {
     width: 825px;
     text-align: center;
     color: #fff;
 }
+
 /*All button on this website will get this style*/
 .action-btn {
     background-image: linear-gradient(to right, #625bd4, #3d388d);
@@ -46,42 +50,53 @@ p {
     cursor: pointer;
     transition: 0.4s all ease-in-out;
 }
-.action-btn:hover{
-    box-shadow:3px 3px 20px #7c7c7c;
+
+.action-btn:hover {
+    box-shadow: 3px 3px 20px #7c7c7c;
 }
+
 /*All the Descriptin Area except about us description area will get this common style*/
-.description{
+.description {
     width: 680px;
     margin: 0 auto;
     text-align: center;
 }
+
 /*All the Section expect banner will get this common margin*/
-.donation-area, .donation-sector, .about-us, .newsletter, .footer-area{
-    margin-top:80px;
+.donation-area,
+.donation-sector,
+.about-us,
+.newsletter,
+.footer-area {
+    margin-top: 80px;
 }
+
 /*Donation amounts area styles*/
-.donation-amounts{
+.donation-amounts {
     display: flex;
     justify-content: center;
-    margin:0% 15%;
+    margin: 0% 15%;
 }
-.amount-single{
+
+.amount-single {
     height: 125px;
     width: 135px;
-    margin:20px;
+    margin: 20px;
     text-align: center;
     background-color: #e3e3e3;
     border-radius: 5px;
     cursor: pointer;
     transition: 0.4s all ease-in-out;
 }
+
 /*Hover effect to make it more catchy*/
-.amount-single:hover{
-    box-shadow:3px 5px 20px #7c7c7c;
+.amount-single:hover {
+    box-shadow: 3px 5px 20px #7c7c7c;
 }
-.amount-single h3{
-    font-size:30px;
-    color:#707070;
+
+.amount-single h3 {
+    font-size: 30px;
+    color: #707070;
     line-height: 1.8;
 }
 
@@ -89,55 +104,127 @@ p {
 .default-amount {
     background-color: #c9c6ff;
     border: 3px solid #3b36a7;
-    box-shadow:3px 5px 20px #7c7c7c;
+    box-shadow: 3px 5px 20px #7c7c7c;
 }
-.default-amount h3{
-    color:#3b36a7;
+
+.default-amount h3 {
+    color: #3b36a7;
 }
+
 /*Custom amount input style*/
-.cutom-amount{
+.cutom-amount {
     text-align: center;
     margin: 15px 0px;
 }
-.cutom-amount input{
+
+.cutom-amount input {
     width: 60%;
-    padding:15px;
-    margin-bottom:20px;
+    padding: 15px;
+    margin-bottom: 20px;
     text-align: center;
     font-size: 16px;
-    border:none;
+    border: none;
     border-bottom: 1px solid #3b36a7;
 }
-.cutom-amount input:focus{
+
+.cutom-amount input:focus {
     outline: none;
 }
+
 /*Donation Sector - where we spend money area styles*/
-.sector-lists{
+.sector-lists {
     display: flex;
-    justify-content:center;
+    justify-content: center;
 }
-.sector-card{
+
+.sector-card {
     width: 320px;
     height: 300px;
-    padding:20px 10px;
-    margin:5px 10px;
+    padding: 20px 10px;
+    margin: 5px 10px;
     border-radius: 5px;
     text-align: left;
     align-items: center;
 }
-.sector-card img{
+
+.sector-card img {
     width: 110px;
     height: auto;
 }
-.sector-card p{
-    color:#3c3c3c;
+
+.sector-card p {
+    color: #3c3c3c;
 }
-#family-card{
+
+#family-card {
     background-color: #ffbdda;
 }
-#education-card{
+
+#education-card {
     background-color: #d9b8ff;
 }
-#old-card{
+
+#old-card {
     background-color: #d5e8ff;
+}
+
+/*About Us Section Styles*/
+.about-us {
+    background-image: url(images/about-us-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px;
+}
+/*About us first row(top) styles*/
+.about-first-row {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+/*2 colomn of first row*/
+.about-left,
+.about-right {
+    width: 40%;
+}
+.about-right {
+    text-align: right;
+}
+
+.about-right>p {
+    margin-left: 60px;
+}
+/*About Us Second row Styles*/
+.about-second-row {
+    padding-left: 25%;
+}
+.about-second-row img{
+    border-radius: 10px;
+}
+/*Statics */
+.statistics {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 20px 40px;
+    background-color: #fff;
+    margin-left: 10%;
+    margin-top: -60px;
+    position: relative;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 3px 3px 20px #7c7c7c;
+}
+.statistics-single{
+    margin:0px 20px;
+}
+.statistics-single h3{
+    font-size: 40px;
+    font-weight: 700;
+    color:#423C96;
+    line-height: 0;
+}
+.statistics-single p{
+    font-size: 18px;
+    font-weight: 700;
+    color:#EF5050;
 }
