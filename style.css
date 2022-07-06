@@ -2,7 +2,6 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Ubuntu', sans-serif;
-    transition: 0.7s all ease-in-out;
 }
 
 /*Common Styles, all h1, h2 and p tag will get this styles.*/
@@ -180,7 +179,8 @@ p {
 .about-first-row {
     display: flex;
     justify-content: space-evenly;
-    align-items: center;
+    align-items: end;
+    margin-bottom:20px;
 }
 
 /*2 colomn of first row*/
