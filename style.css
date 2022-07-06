@@ -111,3 +111,33 @@ p {
 .cutom-amount input:focus{
     outline: none;
 }
+/*Donation Sector - where we spend money area styles*/
+.sector-lists{
+    display: flex;
+    justify-content:center;
+}
+.sector-card{
+    width: 320px;
+    height: 300px;
+    padding:20px 10px;
+    margin:5px 10px;
+    border-radius: 5px;
+    text-align: left;
+    align-items: center;
+}
+.sector-card img{
+    width: 110px;
+    height: auto;
+}
+.sector-card p{
+    color:#3c3c3c;
+}
+#family-card{
+    background-color: #ffbdda;
+}
+#education-card{
+    background-color: #d9b8ff;
+}
+#old-card{
+    background-color: #d5e8ff;
+}
