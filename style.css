@@ -27,7 +27,6 @@ p {
     background-image: url(images/banner-background-image.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: rgba(0, 0, 0, 0.603);
 }
 
 /*Only Header description will get this style, because header description area is widther than other description area*/
@@ -74,9 +73,7 @@ p {
 .donation-amounts {
     display: flex;
     justify-content: center;
-    margin: 0% 15%;
 }
-
 .amount-single {
     height: 125px;
     width: 135px;
@@ -105,7 +102,7 @@ p {
     border: 3px solid #3b36a7;
     box-shadow: 3px 5px 20px #7c7c7c;
 }
-
+/*Separate color for selected amount*/
 .default-amount h3 {
     color: #3b36a7;
 }
@@ -142,7 +139,6 @@ p {
     padding: 20px 10px;
     margin: 5px 10px;
     border-radius: 5px;
-    text-align: left;
     align-items: center;
 }
 
@@ -199,7 +195,7 @@ p {
 
 /*About Us Second row Styles*/
 .about-second-row {
-    padding-left: 25%;
+    margin-left: 25%;
 }
 
 .about-second-row img {
@@ -227,13 +223,11 @@ p {
 
 .statistics-single h3 {
     font-size: 40px;
-    font-weight: 700;
     color: #423C96;
     line-height: 0;
 }
 
 .statistics-single p {
-    font-size: 18px;
     font-weight: 700;
     color: #EF5050;
 }
@@ -241,13 +235,9 @@ p {
 /*Newsletter Subscription Area Styles*/
 .newsletter-box {
     text-align: center;
-    margin: 15px 0px;
     background-image: url(images/subs-bg-cream.png);
-    background-repeat: no-repeat;
-    background-size: cover;
     background-position: center center;
     width: 800px;
-    display: block;
     margin: 0 auto;
     padding: 80px 0px;
     border-radius: 10px;
