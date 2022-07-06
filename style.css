@@ -4,7 +4,7 @@ body {
     font-family: 'Ubuntu', sans-serif;
     transition: 0.7s all ease-in-out;
 }
-
+/*Common Styles, all h1, h2 and p tag will get this styles.*/
 h1 {
     font-size: 65px;
 }
@@ -17,7 +17,7 @@ h2 {
 p {
     font-size: 18px;
 }
-
+/*Header Section style*/
 .header-banner {
     height: 670px;
     display: flex;
@@ -28,13 +28,13 @@ p {
     background-size: cover;
     background-color: rgba(0, 0, 0, 0.603);
 }
-
+/*Only Header description will get this style, because header description area is widther than other description area*/
 .header-description {
     width: 825px;
     text-align: center;
     color: #fff;
 }
-
+/*All button on this website will get this style*/
 .action-btn {
     background-image: linear-gradient(to right, #625bd4, #3d388d);
     color: #fff;
@@ -42,6 +42,72 @@ p {
     font-size: 18px;
     padding: 15px 30px;
     border: none;
-    border-radius: 10px;
+    border-radius: 5px;
     cursor: pointer;
+    transition: 0.4s all ease-in-out;
+}
+.action-btn:hover{
+    box-shadow:3px 3px 20px #7c7c7c;
+}
+/*All the Descriptin Area except about us description area will get this common style*/
+.description{
+    width: 680px;
+    margin: 0 auto;
+    text-align: center;
+}
+/*All the Section expect banner will get this common margin*/
+.donation-area, .donation-sector, .about-us, .newsletter, .footer-area{
+    margin-top:80px;
+}
+/*Donation amounts area styles*/
+.donation-amounts{
+    display: flex;
+    justify-content: center;
+    margin:0% 15%;
+}
+.amount-single{
+    height: 125px;
+    width: 135px;
+    margin:20px;
+    text-align: center;
+    background-color: #e3e3e3;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.4s all ease-in-out;
+}
+/*Hover effect to make it more catchy*/
+.amount-single:hover{
+    box-shadow:3px 5px 20px #7c7c7c;
+}
+.amount-single h3{
+    font-size:30px;
+    color:#707070;
+    line-height: 1.8;
+}
+
+/*Style for by default selected amount*/
+.default-amount {
+    background-color: #c9c6ff;
+    border: 3px solid #3b36a7;
+    box-shadow:3px 5px 20px #7c7c7c;
+}
+.default-amount h3{
+    color:#3b36a7;
+}
+/*Custom amount input style*/
+.cutom-amount{
+    text-align: center;
+    margin: 15px 0px;
+}
+.cutom-amount input{
+    width: 60%;
+    padding:15px;
+    margin-bottom:20px;
+    text-align: center;
+    font-size: 16px;
+    border:none;
+    border-bottom: 1px solid #3b36a7;
+}
+.cutom-amount input:focus{
+    outline: none;
 }
